@@ -75,24 +75,32 @@ display: inline-block;
 margin-left: 40px;
 position: relative;
 top: 50%;
-transform: translate(-0%, -50%);}
+left:20%;
+transform: translate(-50%, -50%);}
 
 /* contenuto spazio seconda colonna */
 .col_2 > div{margin-left: 40px;
 display: inline-block;}
 
 .play{border-bottom: 2px solid black;
-width: 90%;}
+width: 90%;
+margin-top: 20px;
+position: relative;}
 
 .cover{width: 150px;
-height: 200px;
+height: 95%;
 background-image: url(img/cover.jpg);
 background-size: cover;
 position: absolute;}
 
 .descr_tit{position: relative;
 left: 180px;
-width: 380px;
+width: 70%;
 }
 
 .descr_tit > p {text-align: justify;}
+
+/* contenuto footer */
+footer{padding: 10px;}
+
+footer > p {text-align: left;}
